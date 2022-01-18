@@ -1,0 +1,29 @@
+{
+    "name": "stats-preview-card-component",
+    "version": "1.0.0",
+    "description": "![Design preview for the Stats preview card component coding challenge](./design/desktop-preview.jpg)",
+    "main": "index.js",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/chiroro-jr/stats-preview-component.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/chiroro-jr/stats-preview-component/issues"
+    },
+    "homepage": "https://github.com/chiroro-jr/stats-preview-component#readme",
+    "dependencies": {
+        "vite": "^2.7.12"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.2",
+        "postcss": "^8.4.5",
+        "tailwindcss": "^3.0.15"
+    }
+}
