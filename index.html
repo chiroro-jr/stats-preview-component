@@ -29,36 +29,48 @@
     <body class="bg-blue-1">
         <div class="grid h-screen place-content-center">
             <div
-                class="bg-blue-2 w-11/12 max-w-4xl mx-auto rounded-md overflow-hidden grid gap-6"
+                class="bg-blue-2 w-11/12 sm:w-4/6 md:w-full max-w-4xl mx-auto rounded-md overflow-hidden flex flex-col gap-6 md:flex-row md:gap-14"
             >
                 <div
-                    class="bg-header-mobile bg-violet bg-blend-multiply h-[15rem] bg-no-repeat bg-cover bg-center"
+                    class="bg-header-mobile bg-violet bg-blend-multiply h-[15rem] bg-no-repeat bg-cover bg-top md:h-full w-full md:order-2"
                 ></div>
-                <div>
+                <div class="px-10 md:pl-14 md:pr-0 md:py-12 grid gap-10">
                     <div>
-                        <h1 class="text-white font-bold text-lg">
-                            Get <span class="text-violet">insights</span> that
-                            help your business grow.
-                        </h1>
-                        <p class="text-xs text-gray-1">
-                            Discover the benefits of data analytics and make
-                            better decisions regarding revenue, customer
-                            experience, and overall efficiency.
-                        </p>
+                        <div class="md:grid md:gap-6">
+                            <h1
+                                class="text-white text-center font-bold text-lg md:text-3xl sm:text-2xl md:text-left"
+                            >
+                                Get <span class="text-violet">insights</span>
+                                <br class="hidden sm:inline md:hidden" />that
+                                help your business<br
+                                    class="hidden sm:inline md:hidden"
+                                />
+                                grow.
+                            </h1>
+                            <p
+                                class="text-xs sm:text-sm text-center md:text-left text-gray-1 md:text-xs md:leading-5"
+                            >
+                                Discover the benefits of data analytics and make
+                                better decisions regarding revenue, customer
+                                experience, and overall efficiency.
+                            </p>
+                        </div>
                     </div>
-                </div>
-                <div class="text-white flex flex-col items-center">
-                    <div class="flex flex-col items-center">
-                        <span class="font-bold">10k+</span>
-                        <span class="text-gray-2 text-sm">companies</span>
-                    </div>
-                    <div class="flex flex-col items-center">
-                        <span class="font-bold">314</span>
-                        <span class="text-gray-2 text-sm">templates</span>
-                    </div>
-                    <div class="flex flex-col items-center">
-                        <span class="font-bold">12m+</span>
-                        <span class="text-gray-2 text-sm">queries</span>
+                    <div
+                        class="text-white flex flex-col gap-4 items-center pb-8 md:pb-0 md:flex-row md:gap-14"
+                    >
+                        <div class="flex flex-col items-center md:items-start">
+                            <span class="font-bold">10k+</span>
+                            <span class="text-gray-2 text-sm">companies</span>
+                        </div>
+                        <div class="flex flex-col items-center md:items-start">
+                            <span class="font-bold">314</span>
+                            <span class="text-gray-2 text-sm">templates</span>
+                        </div>
+                        <div class="flex flex-col items-center md:items-start">
+                            <span class="font-bold">12m+</span>
+                            <span class="text-gray-2 text-sm">queries</span>
+                        </div>
                     </div>
                 </div>
             </div>
