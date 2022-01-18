@@ -17,6 +17,10 @@ module.exports = {
             sans: ['Inter', 'sans-serif'],
             serif: ['Lexend Deca', 'serif'],
         },
+        backgroundImage: {
+            'header-desktop': "url('/images/image-header-desktop.jpg')",
+            'header-mobile': "url('/images/image-header-mobile.jpg')",
+        },
     },
     plugins: [],
 }
